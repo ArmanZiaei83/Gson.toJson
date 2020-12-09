@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         Gson gson = new Gson();
         userInfo userinfo = new userInfo() ;
         userinfo.info("ArmanZiaei" , "armanziei83@gmail.com" , 17);
-        
+
+        String json = gson.toJson(userinfo);
     }
 }
