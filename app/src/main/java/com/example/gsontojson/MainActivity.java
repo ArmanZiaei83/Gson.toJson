@@ -14,5 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Gson gson = new Gson();
+        userInfo userinfo = new userInfo() ;
+        userinfo.info("ArmanZiaei" , "armanziei83@gmail.com" , 17);
+        
     }
 }
